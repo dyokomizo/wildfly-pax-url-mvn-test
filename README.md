@@ -8,6 +8,7 @@ Test Bundle to deploy programatically on WildFly using Pax URL.
 2. Install [JBossOSGi-2.1.0](http://jbossosgi.blogspot.com/2013/07/jbossosgi-210-released.html)
 3. Configure the [OSGi subsystem](https://docs.jboss.org/author/display/AS7/OSGi+Subsystem+Configuration)
 ```xml
+
     <extensions>
         ...
         <extension module="org.jboss.as.osgi"/>
@@ -20,6 +21,7 @@ Test Bundle to deploy programatically on WildFly using Pax URL.
         ...
         <socket-binding name="osgi-http" interface="management" port="8090"/>
     </socket-binding-group>
+
 ```
 4. Start WildFly.
 5. Build and deploy:
